@@ -1,0 +1,11 @@
+
+
+//----------------------------------------------------
+@version 	v1.0.0.0
+@datetime 	2017/01/22	00:56
+@auther		Laurence
+@note		(1) First Release;
+			(2) BUG: Open a timer/exti interrupt may cause 
+				FatFs(f_sync/f_write/f_lseek) return EXCEPTION.
+
+//----------------------------------------------------
