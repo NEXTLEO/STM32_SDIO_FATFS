@@ -4,7 +4,10 @@
 @version 	v1.0.0.1
 @datetime 	2017/03/14	20:01
 @auther		Laurence
-@note		(1)Fix the BUG mention at last version.
+@note		(1)Fix the BUG mention at last version:
+		BSP_SD_WriteBlocks_DMA() replace BSP_SD_WriteBlocks(), 
+		BSP_SD_ReadBlocks_DMA() replace BSP_SD_ReadBlocks() in file
+		../Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c
 
 //----------------------------------------------------
 @version 	v1.0.0.0
