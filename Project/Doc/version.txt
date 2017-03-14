@@ -1,11 +1,17 @@
 
 
 //----------------------------------------------------
+@version 	v1.0.0.1
+@datetime 	2017/03/14	20:01
+@auther		Laurence
+@note		(1)Fix the BUG mention at last version.
+
+//----------------------------------------------------
 @version 	v1.0.0.0
 @datetime 	2017/01/22	00:56
 @auther		Laurence
 @note		(1) First Release;
-			(2) BUG: Open a timer/exti interrupt may cause 
-				FatFs(f_sync/f_write/f_lseek) return EXCEPTION.
+		(2) BUG: Open a timer/exti interrupt may cause 
+		FatFs(f_sync/f_write/f_lseek) return EXCEPTION.
 
 //----------------------------------------------------
