@@ -70,7 +70,7 @@ Revision: $Rev: 4351 $
 #include <rt_sys.h>
 #include <rt_misc.h>
 
-#include "SEGGER_RTT.h"
+#include "./RTT/SEGGER_RTT.h"
 /*********************************************************************
 *
 *       #pragmas
