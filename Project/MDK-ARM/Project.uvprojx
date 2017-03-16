@@ -50,9 +50,9 @@
           <OutputName>ECG3Code</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>1</CreateHexFile>
-          <DebugInformation>1</DebugInformation>
-          <BrowseInformation>1</BrowseInformation>
+          <CreateHexFile>0</CreateHexFile>
+          <DebugInformation>0</DebugInformation>
+          <BrowseInformation>0</BrowseInformation>
           <ListingPath></ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
@@ -367,9 +367,9 @@
             <v6LangP>0</v6LangP>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER STM32F427xx HSE_VALUE=16000000</Define>
+              <Define>USE_HAL_DRIVER STM32F427xx HSE_VALUE=16000000 SEGGER_PRINTF</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Inc;..\..\Drivers\STM32F4xx_HAL_Driver\Src;..\..\Drivers\STM32F4xx_HAL_Driver\Inc;..\..\Middlewares\Third_Party\FatFs\src;..\..\Middlewares\Third_Party\FatFs\src\drivers;..\..\Drivers\HAL_MSP\TIM;..\..\Drivers\HAL_BSP\DISCO_EVAL_BOARD;..\..\Drivers\HAL_BSP\GPIO;..\..\Drivers\HAL_BSP\SD;..\..\Drivers\HAL_BSP\LED</IncludePath>
+              <IncludePath>..\Inc;..\..\Drivers\STM32F4xx_HAL_Driver\Src;..\..\Drivers\STM32F4xx_HAL_Driver\Inc;..\..\Middlewares\Third_Party\FatFs\src;..\..\Middlewares\Third_Party\FatFs\src\drivers;..\..\Drivers\HAL_MSP\TIM;..\..\Drivers\HAL_BSP\DISCO_EVAL_BOARD;..\..\Drivers\HAL_BSP\GPIO;..\..\Drivers\HAL_BSP\SD;..\..\Drivers\HAL_BSP\LED;..\..\Middlewares\Third_Party\SEGGER_RTT</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -641,6 +641,26 @@
               <FileName>readme.txt</FileName>
               <FileType>5</FileType>
               <FilePath>..\Doc\readme.txt</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Middlewares/SEGGER_RTT</GroupName>
+          <Files>
+            <File>
+              <FileName>SEGGER_RTT_printf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Middlewares\Third_Party\SEGGER_RTT\RTT\SEGGER_RTT_printf.c</FilePath>
+            </File>
+            <File>
+              <FileName>SEGGER_RTT.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Middlewares\Third_Party\SEGGER_RTT\RTT\SEGGER_RTT.c</FilePath>
+            </File>
+            <File>
+              <FileName>SEGGER_RTT_Syscalls_KEIL.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Middlewares\Third_Party\SEGGER_RTT\Syscalls\SEGGER_RTT_Syscalls_KEIL.c</FilePath>
             </File>
           </Files>
         </Group>
