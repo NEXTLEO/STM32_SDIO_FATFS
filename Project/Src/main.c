@@ -55,6 +55,11 @@ int main(void)
 	/* Configure the system clock to 160 MHz */
 	SystemClock_Config();
 	
+	#ifdef SEGGER_PRINTF
+	SEGGER_RTT_Init();
+	SEGGER_RTT_printf(0,"\r HELLO SEGGER RTT \r\n");
+	#endif
+	
 	//SD CardReader Power Off
 	BSP_SD_CardReader_Power_Control_Init();
 	BSP_SD_CardReader_Power_Control(CR_PWR_ON);
