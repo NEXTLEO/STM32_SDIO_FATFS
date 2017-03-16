@@ -48,6 +48,8 @@
 /* FatFs includes component */
 #include "ff_gen_drv.h"
 #include "sd_diskio.h"
+#include "./RTT/SEGGER_RTT.h"
+#include "./RTT/SEGGER_RTT_Conf.h"
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
