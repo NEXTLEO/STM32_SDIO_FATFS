@@ -1,4 +1,10 @@
 
+//----------------------------------------------------
+@version 	v1.0.0.2
+@datetime 	2017/03/16	21:17
+@auther		Laurence
+@note		(1)Add SEGGER_RTT to project for efficient debug.
+
 
 //----------------------------------------------------
 @version 	v1.0.0.1
